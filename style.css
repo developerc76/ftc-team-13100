@@ -1,0 +1,189 @@
+@font-face {
+	font-family: websitefont;
+	src: url(assets/OpenSans-Regular.woff);
+}
+
+@media screen and (min-width: 480px) {
+	body {
+		background-color: #112645;
+		display: flex;
+	}
+
+	div#banner {
+		margin-top: 1vh;
+		margin-left: 2vw;
+		font-size: 2vh;
+		text-indent: 1vw;
+		padding-top: 1vh;
+		width: 8vw;
+		height: 90vh;
+		background-color: lightgray;
+		color: black;
+		font-family: websitefont;
+		position: sticky;
+		top: 0;
+		z-index: 10;
+	}
+
+	div#main {
+		padding-left: 1vw;
+	}
+
+	div#container {
+		padding-top: 0vh;
+		margin-left: 0.25vw;
+		margin-top: 1vh;
+		font-size: 2vw;
+		width: 85vw;
+		height: 300vh;
+		background-color: white;
+		font-family: websitefont;
+		position: relative;
+	}
+
+	div#footer {
+		clear: both;
+		background-color: #999999;
+		color: white;
+		height: 4vh;
+		font-size: 2vh;
+		text-align: right;
+		position: absolute;
+		width: 85vw;
+		bottom: 0vh;
+		padding-bottom: 1vh;
+	}
+
+	.banner a {
+		color: black;
+		text-decoration: none;
+		font-family: websitefont;
+	}
+
+	.banner a:hover {
+		color: #3498db;
+		text-decoration: underline;
+	}
+
+	.banner a:focus {
+		outline: 2px solid #3498db;
+	}
+
+	.longpic {
+		position: relative;
+		width: 85vw;
+		height: 70vh;
+		background-image: url("assets/teampic.avif");
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.longpic .imgtxt {
+		position: absolute;
+		top: 20vh;
+		left: 28vw;
+		text-align: center;
+		background-color: #112645;
+		color: white;
+		opacity: 0.7;
+		font-weight: bold;
+		font-size: 7.5vh;
+		letter-spacing: 0.5vh;
+		padding-left: 0.5vw;
+		padding-right: 0.5vw;
+	}
+
+	div#containerforrects {
+		display: flex;
+		background-color: #ffff;
+		font-size: 2vh;
+		color: white;
+	}
+
+	.about {
+		background-color: #112645;
+		margin-left: 7vw;
+		width: 15vw;
+		height: 37vh;
+		text-align: center;
+		padding-left: 1vw;
+		padding-right: 1vw;
+		padding-top: 1vh;
+	}
+
+	.mission {
+		background-color: #112645;
+		margin-left: 10vw;
+		width: 15vw;
+		height: 37vh;
+		text-align: center;
+		padding-left: 1vw;
+		padding-right: 1vw;
+		padding-top: 1vh;
+	}
+	.beavercamps {
+		background-color: #112645;
+		margin-left: 10vw;
+		width: 15vw;
+		height: 37vh;
+		text-align: center;
+		padding-left: 1vw;
+		padding-right: 1vw;
+		padding-top: 1vh;
+	}
+
+	.rectheadings {
+		font-size: 2.5vh;
+	}
+
+	.contact a {
+		color: black;
+		text-decoration: none;
+	}
+
+	.contact a:hover {
+		color: #3498db;
+		text-decoration: underline;
+	}
+
+	.contact a:focus {
+		outline: 2px solid #3498db;
+	}
+
+	.contact {
+		font-size: 3vh;
+		padding-left: 5vw;
+		width: 79.6vw;
+		height: 72vh;
+		display: flex;
+		margin-top: 10vh;
+		background-color: #112645;
+		border: 0.5vh solid white;
+	}
+
+	.contact img {
+		margin-top: 10vh;
+		width: 30vw;
+		height: 52vh;
+		margin-left: 2vw;
+	}
+
+	.contact p {
+		margin-top: 10vh;
+		margin-left: 5vw;
+		background: white;
+		height: 50vh;
+		line-height: 2.5;
+		padding-left: 1vw;
+		padding-right: 1vw;
+		padding-top: 1vh;
+		padding-bottom: 1vh;
+		width: 25vw;
+		text-align: right;
+	}
+
+	.contact b {
+		letter-spacing: 0.3vw;
+		font-size: 4vh;
+	}
+}
